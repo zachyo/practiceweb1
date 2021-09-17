@@ -1,0 +1,119 @@
+nav,
+body,
+footer { 
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+label {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    padding: 2%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%
+}
+  
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+/* ######## Nav Bar ########## */
+
+nav {
+    background-color: #e7131a;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+/* nav img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 40px;
+} */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.topnav {
+    padding: 5 70;
+    align-items: center;
+}
+
+ul.topnav li {
+    list-style: none;
+    /* align-items: center; */
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+#logo {
+    /* width : 156px;
+    height: 35px;  */
+    padding: 0px;
+}
+
+ul.topnav li a {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,
+    "Helvetica Neue",sans-serif;
+    display: block;
+    min-height: 16px; 
+    padding: 20px 12px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+ul.topnav li a:hover {
+    background-color: #cc1b21;
+    border-radius: 4px;
+    color: white;
+}
+
+ul.topnav li button {
+    height: 40px;
+    width: 100px;
+    margin: 8px 4px;
+    background: #fff;
+    border: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul.topnav li button a {
+    float: right;
+    color: black;
+    background: #fff;
+    padding: 20px;
+    font-weight: bolder;
+    /* padding: 6px; */
+}
+
+ul.topnav li.topnav-right-1 {
+    background: #e7131a;
+}
+
+
