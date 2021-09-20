@@ -1,3 +1,10 @@
+*{
+    width: auto;
+    padding: 0;
+    margin: 0;
+
+}
+
 nav,
 body,
 footer { 
@@ -116,4 +123,38 @@ ul.topnav li.topnav-right-1 {
     background: #e7131a;
 }
 
+.article-main{
+    text-align: center;
+}
 
+.article-side-right{
+ float: right;
+}
+
+.list-group{
+    list-style-type: none;
+  
+    font-size: 12px;
+    position: absolute;
+}
+.list-item{
+    list-style: none;
+ 
+}
+
+.article-side {
+width: 282px;
+height: 35.33;
+color: black;
+ padding-left: 10px ;
+ padding-right: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ 
+ border: 1px red solid;
+}
+
+.article-side a {
+    text-decoration: none;
+    color: black;
+}
