@@ -133,8 +133,85 @@ ul.topnav li.topnav-right-1 {
 }
 
 /* Footer */
+
+
 .main-foot{
-    /* background-color: black; */
+    background-color: black;
+    color: white;
+    margin-top: 10px;
 }
 
-     
+.main1{
+    margin-top: 20px;
+}
+
+.main-foot a {
+    text-decoration: none;
+    font-family: cursive;
+    cursor: pointer;
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5.8px;
+
+}
+
+.main-foot input {
+    float:right;
+    position: relative;
+    top: 30px;
+    
+}
+
+.foot-list-head{
+    padding: 30px;
+  
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-list-head li {
+    line-height:  140%;
+    
+}
+/*  for the last list row in the footer */
+.last-list{
+    
+}
+
+/* subscribe button */
+.main1 button {
+    padding: 15px;
+    background-color: inherit;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+
+}
+
+.main1 button:hover{
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+}
+
+/* footer last part */
+
+.footer-last-part{
+    border-top: 1px solid white;
+    text-align: center;
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.footer-text
