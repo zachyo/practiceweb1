@@ -42,6 +42,8 @@ ul { list-style: none;}
 h4 {
     font-weight: 500;
     margin: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
 }
 a {
     text-decoration: none;
